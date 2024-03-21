@@ -1,0 +1,29 @@
+# File system
+.DS_Store
+
+# Go binaries and executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test and coverage files
+*.test
+*.out
+*.prof
+
+# Go build and dependency directories
+/bin/
+/pkg/
+/vendor/
+
+# IDE specific files
+.vscode/
+.idea/
+*.iml
+
+# Miscellaneous
+*.log
+*.tmp
+*.bak
