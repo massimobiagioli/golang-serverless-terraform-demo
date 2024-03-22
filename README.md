@@ -37,5 +37,11 @@ go mod download
 To deploy the application on AWS using Terraform, follow these steps:
 
 ```shell
-make terraform-deploy
+make terraform-create
+```
+
+Destroy the architecture:
+
+```shell
+make terraform-destroy
 ```

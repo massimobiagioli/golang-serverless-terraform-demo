@@ -27,3 +27,9 @@
 *.log
 *.tmp
 *.bak
+
+# Terraform local state
+/infra/terraform.tfstate
+/infra/terraform.tfstate.backup
+/infra/.terraform/
+/infra/.terraform.lock.hcl
